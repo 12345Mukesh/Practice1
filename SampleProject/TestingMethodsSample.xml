@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="Sample.Test2">
+      <methods>
+            <exclude name="Brokenlinks"></exclude>
+            <include name="QSpidersDynamicdropdown"></include>
+            <include name="ICCRankings"></include>
+            <include name="SwagLabs"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
