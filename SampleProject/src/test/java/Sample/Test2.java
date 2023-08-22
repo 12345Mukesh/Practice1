@@ -153,7 +153,7 @@ public class Test2
 	WebElement name=driver.findElement(By.xpath("//div[@data-title='Test All-Rounder Rankings']/descendant::table/tbody/tr[@class='table-body'][2]"));
 	
 	System.out.println(name.getText());
-	System.out.println(list.get(3).getText());
+	//System.out.println(list.get(3).getText());
 	
 	
 	//2. 10th position name of Test Batting Rankings
@@ -306,7 +306,7 @@ WebElement fifth=driver.findElement(By.xpath("//div[@data-title='Test Batting Ra
 	System.out.println(screenshot);
 	
 	Screenshot screen= new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
-	ImageIO.write(screen.getImage(), "PNG", new File("./screenshot/SWAGLabs'" + screenshot + "'.png"));
+	ImageIO.write(screen.getImage(), "PNG", new File("C:\\Users\\Mukesh\\git\\repository3\\SampleProject" + screenshot + "'.png"));
 	
 	
 	
